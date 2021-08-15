@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+:root{
+    --primary-color: #BFDBFE;
+    --secondary-color: #012550;
+    /* 012550 */
+}
+
+body{
+    font-family: 'STIX Two Text', serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.navbar{
+    width: 100%;
+    text-align: right;
+    background-color:var(--primary-color);
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.nav-items{
+    color:var(--secondary-color);
+    text-decoration: none;
+    padding: 2rem;
+    /* display: inline; */
+}
+
+.img{
+    height: 50vh;
+}
+
+.footer {
+    text-align: center;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.footer a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 2rem;
+}
+
