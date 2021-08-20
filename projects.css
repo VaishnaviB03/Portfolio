@@ -110,7 +110,7 @@ li, .link{
     align-items: center; */
     color: var(--secondary-color);
     text-decoration: none;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .footer-img{
