@@ -41,6 +41,7 @@ body{
 
 .section{
     padding: 1rem;
+    width: 100%;
 }
 
 .ow{
@@ -53,7 +54,7 @@ body{
 }
 
 span{
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .list{

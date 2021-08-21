@@ -17,6 +17,14 @@ h1{
     text-align: center;
 }
 
+.name{
+    color: var(--secondary-color);
+    text-align: left;
+    display: inline;
+    text-align: left;
+    align-items: center;
+}
+
 .navbar{
     width: 95vw;
     text-align: right;
