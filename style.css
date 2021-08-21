@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 :root{
-    --primary-color: #BFDBFE;
-    --secondary-color: #012550;
-    /* 012550 */
+    --primary-color: #012550;
+    --secondary-color: #ffffff;
 }
 
 body{
-    font-family: 'STIX Two Text', serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0px;
     display: flex;
     flex-direction: column;
@@ -59,7 +58,7 @@ h1{
 }
 
 .footer {
-    width: 95vw;
+    width: 100%;
     text-align: center;
     background-color:var(--primary-color);
     color: var(--secondary-color);

@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 :root{
-    --primary-color: #BFDBFE;
-    --secondary-color: #012550;
-    --primary-link-color : #1C3556;
-    /* 012550 */
+    --primary-color: #012550;
+    --secondary-color: #ffffff;
 }
 
 body{
     /* display: flex;
     flex-direction: column;
     align-items: center; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     text-align: center;
+    font-family: 'Poppins', sans-serif;;
 }
 
 .navbar{
@@ -51,18 +53,26 @@ li, .link{
 }
 
 .primary-link{
-    border: 2px solid var(--primary-link-color);
-    background-color: var(--primary-link-color);
-    color:whitesmoke;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
     font-weight: bold;
     font-size:1rem;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem;
     border-radius: 0.5rem;
 }
 
+.secondary-link{
+    border: 2px solid var(--primary-color);
+    color: black;
+    font-weight: bold;
+    font-size:1rem;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
 
 .footer {
-    width: 95vw;
+    width: 100%;
     text-align: center;
     background-color:var(--primary-color);
     color: var(--secondary-color);
