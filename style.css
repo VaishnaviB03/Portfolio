@@ -17,13 +17,14 @@ h1{
     text-align: center;
 }
 
-.name{
+/* .name{
     color: var(--secondary-color);
     text-align: left;
     display: inline;
     text-align: left;
-    align-items: center;
-}
+    justify-content: left;
+    align-items: left;
+} */
 
 .navbar{
     width: 95vw;
